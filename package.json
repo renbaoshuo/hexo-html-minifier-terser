@@ -1,12 +1,10 @@
 {
-  "name": "hexo-html-minifier",
+  "name": "hexo-html-minifier-terser",
   "version": "1.0.0",
-  "description": "Minify HTML files with HTMLMinifier.",
+  "description": "Minify HTML files with html-minifier-terser.",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint .",
-    "test": "mocha test/index.js",
-    "test-cov": "nyc --reporter=lcovonly npm run test"
+    "eslint": "eslint ."
   },
   "directories": {
     "lib": "./lib"
@@ -18,7 +16,7 @@
   "engines": {
     "node": ">= 12.13"
   },
-  "repository": "hexojs/hexo-html-minifier",
+  "repository": "renbaoshuo/hexo-html-minifier-terser",
   "keywords": [
     "hexo",
     "filter",
@@ -31,7 +29,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "html-minifier": "^4.0.0",
+    "html-minifier-terser": "^7.0.0-alpha.2",
     "micromatch": "^4.0.4"
   },
   "devDependencies": {

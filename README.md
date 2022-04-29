@@ -1,14 +1,13 @@
-# hexo-html-minifier
+# hexo-html-minifier-terser
 
-[![Build Status](https://github.com/hexojs/hexo-html-minifier/workflows/Tester/badge.svg)](https://github.com/hexojs/hexo-html-minifier/actions?query=workflow%3ATester)
-[![NPM version](https://badge.fury.io/js/hexo-html-minifier.svg)](https://www.npmjs.com/package/hexo-html-minifier)
+[![NPM version](https://badge.fury.io/js/hexo-html-minifier-terser.svg)](https://www.npmjs.com/package/hexo-html-minifier-terser)
 
-Minify HTML files with [HTMLMinifier](https://github.com/kangax/html-minifier).
+Minify HTML files with [html-minifier-terser](https://github.com/terser/html-minifier-terser).
 
 ## Installation
 
 ``` bash
-$ npm install hexo-html-minifier --save
+$ npm install html-minifier-terser --save
 ```
 
 ## Options
